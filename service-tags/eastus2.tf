@@ -1,10 +1,10 @@
-variable "ActionGroup" {
+variable "action_group" {
   default = [
     "20.44.17.220/30"
   ]
 }
 
-variable "AzureApiManagement" {
+variable "azure_api_management" {
   default = [
     "20.44.72.3/32",
     "40.70.146.76/31",
@@ -12,7 +12,7 @@ variable "AzureApiManagement" {
   ]
 }
 
-variable "AzureAppService" {
+variable "azure_app_service" {
   default = [
     "13.68.29.136/32",
     "13.68.101.62/32",
@@ -45,13 +45,13 @@ variable "AzureAppService" {
   ]
 }
 
-variable "AzureAppServiceManagement" {
+variable "azure_app_service_management" {
   default = [
     "40.70.146.128/26"
   ]
 }
 
-variable "AzureBackup" {
+variable "azure_backup" {
   default = [
     "20.44.16.128/27",
     "20.44.16.192/26",
@@ -62,14 +62,14 @@ variable "AzureBackup" {
   ]
 }
 
-variable "AzureBotService" {
+variable "azure_bot_service" {
   default = [
     "20.41.0.64/30",
     "20.44.17.24/30"
   ]
 }
 
-variable "AzureCognitiveSearch" {
+variable "azure_cognitive_search" {
   default = [
     "20.41.4.128/26",
     "20.44.74.182/32",
@@ -79,7 +79,7 @@ variable "AzureCognitiveSearch" {
   ]
 }
 
-variable "AzureConnectors" {
+variable "azure_connectors" {
   default = [
     "40.70.146.208/28",
     "40.70.151.96/27",
@@ -90,7 +90,7 @@ variable "AzureConnectors" {
   ]
 }
 
-variable "AzureContainerRegistry" {
+variable "azure_container_registry" {
   default = [
     "40.70.146.88/29",
     "40.70.150.0/24",
@@ -99,7 +99,7 @@ variable "AzureContainerRegistry" {
   ]
 }
 
-variable "AzureCosmosDB" {
+variable "azure_cosmos_db" {
   default = [
     "13.68.22.163/32",
     "13.68.28.135/32",
@@ -119,7 +119,7 @@ variable "AzureCosmosDB" {
   ]
 }
 
-variable "AzureDataLake" {
+variable "azure_data_lake" {
   default = [
     "65.52.108.31/32",
     "65.52.108.38/32",
@@ -128,14 +128,14 @@ variable "AzureDataLake" {
   ]
 }
 
-variable "AzureDevSpaces" {
+variable "azure_dev_spaces" {
   default = [
     "20.41.5.128/28",
     "40.70.151.80/28"
   ]
 }
 
-variable "AzureEventHub" {
+variable "azure_event_hub" {
   default = [
     "13.68.20.101/32",
     "13.68.21.169/32",
@@ -160,7 +160,7 @@ variable "AzureEventHub" {
   ]
 }
 
-variable "AzureIoTHub" {
+variable "azure_io_t_hub" {
   default = [
     "20.44.17.96/27",
     "40.70.148.128/27",
@@ -173,7 +173,7 @@ variable "AzureIoTHub" {
   ]
 }
 
-variable "AzureKeyVault" {
+variable "azure_key_vault" {
   default = [
     "13.68.24.216/32",
     "13.68.29.203/32",
@@ -191,7 +191,7 @@ variable "AzureKeyVault" {
   ]
 }
 
-variable "AzureMachineLearning" {
+variable "azure_machine_learning" {
   default = [
     "20.41.0.240/28",
     "40.70.146.192/28",
@@ -202,7 +202,7 @@ variable "AzureMachineLearning" {
   ]
 }
 
-variable "AzureMonitor" {
+variable "azure_monitor" {
   default = [
     "13.68.31.237/32",
     "13.68.101.211/32",
@@ -227,13 +227,13 @@ variable "AzureMonitor" {
   ]
 }
 
-variable "AzureOpenDatasets" {
+variable "azure_open_datasets" {
   default = [
     "20.41.4.192/28"
   ]
 }
 
-variable "AzureSQL" {
+variable "azure_sql" {
   default = [
     "13.68.22.44/32",
     "13.68.30.216/32",
@@ -274,13 +274,13 @@ variable "AzureSQL" {
   ]
 }
 
-variable "AzureSQL" {
+variable "azure_sql" {
   default = [
     "137.116.31.224/27"
   ]
 }
 
-variable "AzureServiceBus" {
+variable "azure_service_bus" {
   default = [
     "13.68.110.36/32",
     "40.70.146.64/29",
@@ -289,7 +289,7 @@ variable "AzureServiceBus" {
   ]
 }
 
-variable "AzureSignalR" {
+variable "azure_signal_r" {
   default = [
     "20.44.17.128/26",
     "40.70.148.192/26",
@@ -297,7 +297,7 @@ variable "AzureSignalR" {
   ]
 }
 
-variable "AzureStorage" {
+variable "azure_storage" {
   default = [
     "13.68.120.64/28",
     "13.77.112.16/28",
@@ -390,13 +390,13 @@ variable "AzureStorage" {
   ]
 }
 
-variable "AzureStorage" {
+variable "azure_storage" {
   default = [
     "137.116.2.64/27"
   ]
 }
 
-variable "BatchNodeManagement" {
+variable "batch_node_management" {
   default = [
     "13.77.80.138/32",
     "20.41.5.224/27",
@@ -416,7 +416,7 @@ variable "BatchNodeManagement" {
   ]
 }
 
-variable "GatewayManager" {
+variable "gateway_manager" {
   default = [
     "20.41.0.72/29",
     "40.70.146.224/29",
@@ -425,13 +425,13 @@ variable "GatewayManager" {
   ]
 }
 
-variable "HDInsight" {
+variable "hd_insight" {
   default = [
     "20.44.16.8/29"
   ]
 }
 
-variable "LogicApps" {
+variable "logic_apps" {
   default = [
     "20.44.17.224/27",
     "40.70.26.154/32",
@@ -458,7 +458,7 @@ variable "LogicApps" {
   ]
 }
 
-variable "MicrosoftCloudAppSecurity" {
+variable "microsoft_cloud_app_security" {
   default = [
     "13.77.80.28/32",
     "20.36.220.93/32",
@@ -515,7 +515,7 @@ variable "MicrosoftCloudAppSecurity" {
   ]
 }
 
-variable "MicrosoftContainerRegistry" {
+variable "microsoft_container_registry" {
   default = [
     "40.70.146.80/29",
     "52.167.106.72/29",
@@ -523,13 +523,13 @@ variable "MicrosoftContainerRegistry" {
   ]
 }
 
-variable "PowerQueryOnline" {
+variable "power_query_online" {
   default = [
     "20.41.0.68/30"
   ]
 }
 
-variable "ServiceFabric" {
+variable "service_fabric" {
   default = [
     "40.70.146.232/29",
     "40.84.62.189/32",
@@ -538,14 +538,14 @@ variable "ServiceFabric" {
   ]
 }
 
-variable "StorageSyncService" {
+variable "storage_sync_service" {
   default = [
     "20.41.5.144/29",
     "40.123.47.110/32"
   ]
 }
 
-variable "WindowsVirtualDesktop" {
+variable "windows_virtual_desktop" {
   default = [
     "52.177.123.162/32",
     "104.209.233.222/32"

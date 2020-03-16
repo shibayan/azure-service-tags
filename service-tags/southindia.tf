@@ -1,4 +1,4 @@
-variable "AzureApiManagement" {
+variable "azure_api_management" {
   default = [
     "20.44.33.246/32",
     "40.78.194.68/31",
@@ -6,7 +6,7 @@ variable "AzureApiManagement" {
   ]
 }
 
-variable "AzureAppService" {
+variable "azure_app_service" {
   default = [
     "13.71.122.35/32",
     "13.71.123.138/32",
@@ -18,33 +18,33 @@ variable "AzureAppService" {
   ]
 }
 
-variable "AzureAppServiceManagement" {
+variable "azure_app_service_management" {
   default = [
     "40.78.194.128/26"
   ]
 }
 
-variable "AzureBackup" {
+variable "azure_backup" {
   default = [
     "40.78.195.32/27",
     "40.78.195.64/26"
   ]
 }
 
-variable "AzureBotService" {
+variable "azure_bot_service" {
   default = [
     "20.41.192.64/30",
     "40.78.196.56/30"
   ]
 }
 
-variable "AzureCognitiveSearch" {
+variable "azure_cognitive_search" {
   default = [
     "20.41.193.64/26"
   ]
 }
 
-variable "AzureConnectors" {
+variable "azure_connectors" {
   default = [
     "13.71.125.22/32",
     "13.71.127.26/32",
@@ -58,14 +58,14 @@ variable "AzureConnectors" {
   ]
 }
 
-variable "AzureContainerRegistry" {
+variable "azure_container_registry" {
   default = [
     "40.78.194.80/29",
     "40.78.196.192/26"
   ]
 }
 
-variable "AzureCosmosDB" {
+variable "azure_cosmos_db" {
   default = [
     "13.71.115.125/32",
     "13.71.124.81/32",
@@ -75,7 +75,7 @@ variable "AzureCosmosDB" {
   ]
 }
 
-variable "AzureEventHub" {
+variable "azure_event_hub" {
   default = [
     "13.71.123.78/32",
     "40.78.194.32/27",
@@ -84,7 +84,7 @@ variable "AzureEventHub" {
   ]
 }
 
-variable "AzureIoTHub" {
+variable "azure_io_t_hub" {
   default = [
     "13.71.84.34/32",
     "13.71.113.127/32",
@@ -93,7 +93,7 @@ variable "AzureIoTHub" {
   ]
 }
 
-variable "AzureKeyVault" {
+variable "azure_key_vault" {
   default = [
     "40.78.194.64/30",
     "104.211.224.186/32",
@@ -101,13 +101,13 @@ variable "AzureKeyVault" {
   ]
 }
 
-variable "AzureMachineLearning" {
+variable "azure_machine_learning" {
   default = [
     "40.78.194.224/28"
   ]
 }
 
-variable "AzureMonitor" {
+variable "azure_monitor" {
   default = [
     "40.78.195.16/28",
     "40.78.196.48/29",
@@ -115,13 +115,13 @@ variable "AzureMonitor" {
   ]
 }
 
-variable "AzureOpenDatasets" {
+variable "azure_open_datasets" {
   default = [
     "20.41.193.128/28"
   ]
 }
 
-variable "AzureSQL" {
+variable "azure_sql" {
   default = [
     "40.78.192.0/27",
     "40.78.193.0/27",
@@ -131,14 +131,14 @@ variable "AzureSQL" {
   ]
 }
 
-variable "AzureServiceBus" {
+variable "azure_service_bus" {
   default = [
     "13.71.114.157/32",
     "40.78.194.16/28"
   ]
 }
 
-variable "AzureStorage" {
+variable "azure_storage" {
   default = [
     "20.150.24.0/24",
     "52.172.16.16/28",
@@ -154,7 +154,7 @@ variable "AzureStorage" {
   ]
 }
 
-variable "BatchNodeManagement" {
+variable "batch_node_management" {
   default = [
     "20.41.195.128/27",
     "40.78.195.128/27",
@@ -164,7 +164,7 @@ variable "BatchNodeManagement" {
   ]
 }
 
-variable "GatewayManager" {
+variable "gateway_manager" {
   default = [
     "20.41.192.72/29",
     "40.78.194.88/29",
@@ -173,7 +173,7 @@ variable "GatewayManager" {
   ]
 }
 
-variable "HDInsight" {
+variable "hd_insight" {
   default = [
     "40.78.195.8/29",
     "104.211.216.210/32",
@@ -181,7 +181,7 @@ variable "HDInsight" {
   ]
 }
 
-variable "LogicApps" {
+variable "logic_apps" {
   default = [
     "20.192.184.0/27",
     "40.78.196.176/28",
@@ -200,33 +200,33 @@ variable "LogicApps" {
   ]
 }
 
-variable "MicrosoftContainerRegistry" {
+variable "microsoft_container_registry" {
   default = [
     "40.78.194.72/29"
   ]
 }
 
-variable "PowerQueryOnline" {
+variable "power_query_online" {
   default = [
     "20.41.192.120/31"
   ]
 }
 
-variable "ServiceFabric" {
+variable "service_fabric" {
   default = [
     "40.78.195.0/29",
     "104.211.228.68/32"
   ]
 }
 
-variable "StorageSyncService" {
+variable "storage_sync_service" {
   default = [
     "20.41.193.160/29",
     "104.211.231.18/32"
   ]
 }
 
-variable "WindowsVirtualDesktop" {
+variable "windows_virtual_desktop" {
   default = [
     "104.211.211.213/32",
     "104.211.216.230/32"

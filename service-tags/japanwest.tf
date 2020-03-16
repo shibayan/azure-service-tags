@@ -1,4 +1,4 @@
-variable "AzureApiManagement" {
+variable "azure_api_management" {
   default = [
     "40.74.100.52/31",
     "40.74.101.48/28",
@@ -6,7 +6,7 @@ variable "AzureApiManagement" {
   ]
 }
 
-variable "AzureAppService" {
+variable "azure_app_service" {
   default = [
     "40.74.100.128/27",
     "40.74.133.20/32",
@@ -19,27 +19,27 @@ variable "AzureAppService" {
   ]
 }
 
-variable "AzureAppServiceManagement" {
+variable "azure_app_service_management" {
   default = [
     "40.74.100.64/26"
   ]
 }
 
-variable "AzureBackup" {
+variable "azure_backup" {
   default = [
     "40.74.98.64/26",
     "40.74.98.128/27"
   ]
 }
 
-variable "AzureBotService" {
+variable "azure_bot_service" {
   default = [
     "40.80.56.64/30",
     "40.80.176.32/30"
   ]
 }
 
-variable "AzureCognitiveSearch" {
+variable "azure_cognitive_search" {
   default = [
     "40.80.57.64/26",
     "40.81.188.130/32",
@@ -47,7 +47,7 @@ variable "AzureCognitiveSearch" {
   ]
 }
 
-variable "AzureConnectors" {
+variable "azure_connectors" {
   default = [
     "40.74.100.224/28",
     "40.74.130.77/32",
@@ -61,14 +61,14 @@ variable "AzureConnectors" {
   ]
 }
 
-variable "AzureContainerRegistry" {
+variable "azure_container_registry" {
   default = [
     "40.74.100.160/29",
     "40.80.176.128/25"
   ]
 }
 
-variable "AzureCosmosDB" {
+variable "azure_cosmos_db" {
   default = [
     "40.74.98.0/26",
     "40.74.143.235/32",
@@ -78,7 +78,7 @@ variable "AzureCosmosDB" {
   ]
 }
 
-variable "AzureEventHub" {
+variable "azure_event_hub" {
   default = [
     "40.74.100.0/27",
     "40.74.141.187/32",
@@ -87,7 +87,7 @@ variable "AzureEventHub" {
   ]
 }
 
-variable "AzureIoTHub" {
+variable "azure_io_t_hub" {
   default = [
     "23.100.105.192/32",
     "40.74.66.139/32",
@@ -96,7 +96,7 @@ variable "AzureIoTHub" {
   ]
 }
 
-variable "AzureKeyVault" {
+variable "azure_key_vault" {
   default = [
     "40.74.100.48/30",
     "104.215.18.67/32",
@@ -104,27 +104,27 @@ variable "AzureKeyVault" {
   ]
 }
 
-variable "AzureMachineLearning" {
+variable "azure_machine_learning" {
   default = [
     "40.74.100.176/28",
     "40.80.57.176/28"
   ]
 }
 
-variable "AzureMonitor" {
+variable "azure_monitor" {
   default = [
     "40.74.101.32/28",
     "40.74.101.200/29"
   ]
 }
 
-variable "AzureOpenDatasets" {
+variable "azure_open_datasets" {
   default = [
     "40.80.57.128/28"
   ]
 }
 
-variable "AzureSQL" {
+variable "azure_sql" {
   default = [
     "40.74.96.0/27",
     "40.74.97.0/27",
@@ -139,14 +139,14 @@ variable "AzureSQL" {
   ]
 }
 
-variable "AzureServiceBus" {
+variable "azure_service_bus" {
   default = [
     "40.74.100.32/28",
     "40.74.122.78/32"
   ]
 }
 
-variable "AzureStorage" {
+variable "azure_storage" {
   default = [
     "20.150.10.0/23",
     "23.98.56.0/26",
@@ -160,7 +160,7 @@ variable "AzureStorage" {
   ]
 }
 
-variable "BatchNodeManagement" {
+variable "batch_node_management" {
   default = [
     "40.74.101.0/27",
     "40.74.140.140/32",
@@ -171,7 +171,7 @@ variable "BatchNodeManagement" {
   ]
 }
 
-variable "GatewayManager" {
+variable "gateway_manager" {
   default = [
     "40.74.100.168/29",
     "40.80.56.72/29",
@@ -182,7 +182,7 @@ variable "GatewayManager" {
   ]
 }
 
-variable "HDInsight" {
+variable "hd_insight" {
   default = [
     "40.74.101.192/29",
     "40.74.125.69/32",
@@ -190,7 +190,7 @@ variable "HDInsight" {
   ]
 }
 
-variable "LogicApps" {
+variable "logic_apps" {
   default = [
     "40.74.64.207/32",
     "40.74.66.200/32",
@@ -217,33 +217,33 @@ variable "LogicApps" {
   ]
 }
 
-variable "MicrosoftContainerRegistry" {
+variable "microsoft_container_registry" {
   default = [
     "40.74.100.56/29"
   ]
 }
 
-variable "PowerQueryOnline" {
+variable "power_query_online" {
   default = [
     "40.80.56.120/31"
   ]
 }
 
-variable "ServiceFabric" {
+variable "service_fabric" {
   default = [
     "40.74.100.240/29",
     "104.46.225.57/32"
   ]
 }
 
-variable "StorageSyncService" {
+variable "storage_sync_service" {
   default = [
     "23.100.106.151/32",
     "40.80.57.192/29"
   ]
 }
 
-variable "WindowsVirtualDesktop" {
+variable "windows_virtual_desktop" {
   default = [
     "52.175.144.120/32",
     "104.215.51.3/32"
